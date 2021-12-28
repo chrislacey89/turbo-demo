@@ -2,10 +2,6 @@
   "name": "turborepo-basic-shared",
   "version": "0.0.0",
   "private": true,
-  "workspaces": [
-    "apps/*",
-    "packages/*"
-  ],
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
@@ -28,8 +24,7 @@
           "^build"
         ],
         "outputs": [
-          "dist/**",
-          ".next/**"
+          "dist/**"
         ]
       },
       "lint": {
