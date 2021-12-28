@@ -1,6 +1,6 @@
 # Turborepo starter
 
-This is an official Yarn v1 starter turborepo.
+This is an official Yarn v1 starter turborepo, but adapted to use pnpm.
 
 ## What's inside?
 
@@ -35,7 +35,7 @@ To build all apps and packages, run the following command:
 
 ```
 cd my-turborepo
-yarn run build
+pnpm build
 ```
 
 ### Develop
@@ -44,7 +44,7 @@ To develop all apps and packages, run the following command:
 
 ```
 cd my-turborepo
-yarn run dev
+pnpm dev
 ```
 
 ### Remote Caching

@@ -1,4 +1,4 @@
-import { Button } from "ui";
+import Button from "../../../packages/ui/Button";
 
 export default function Docs() {
   return (
